@@ -26,7 +26,7 @@ public class Payment implements Serializable {
 	
 	@OneToOne
 	@MapsId
-	@JsonIgnore
+	@JsonIgnore 
 	private Order order;
 	
 	public Payment() {
